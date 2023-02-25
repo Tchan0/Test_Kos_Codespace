@@ -15,7 +15,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "source /opt/toolchains/dc/kosnaomi/environ.sh"
+	//"postCreateCommand": "source /opt/toolchains/dc/kos/environ.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
