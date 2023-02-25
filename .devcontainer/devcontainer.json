@@ -3,7 +3,7 @@
 {
 	"name": "KOS_SH4_GDB",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "kazade/dreamcast-sdk",
+	"image": "kazade/dreamcast-sdk"
     //"build": {
         // Path is relataive to the devcontainer.json file.
       //  "dockerfile": "Dockerfile"
