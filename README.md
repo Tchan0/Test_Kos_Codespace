@@ -8,3 +8,5 @@ and the kos environ.sh sourced.
 
 * Tip:
   * to go to the linux root folder: cd /
+
+Thanks to Kazade for providing the Docker image !
