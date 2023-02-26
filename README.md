@@ -29,7 +29,7 @@ This is a test repository to show how easy it is to compile applications for the
   * When you have finished working with your codespace, click on the green "Code" button again, and on the 3 dots next to your codespace to stop your container from running. This will save you some free execution minutes (default idle timeout is 30 minutes, and you get [120 free core hours per month](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts)).
 
 # Notes:
-* This is just a simple test & could be improved a lot, eg by:
+* This is just a very simple test (by somebody who just started using Docker & Codespaces), hence could be improved a lot, eg by:
   * including (regular) gcc, dc-tool-ip, gdb, ... in the docker image
   * trying to keep the docker image as small as possible, and/or use several separate images
   * automate the building of the toolchain / kos on a regular base, and put that in docker image(s), to benefit from the latest changes
