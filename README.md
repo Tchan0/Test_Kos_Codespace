@@ -31,6 +31,10 @@
   * trying to keep the docker image as small as possible, and/or use several separate images
   * automate the building of the toolchain / kos on a regular base, and put that in docker image(s), to benefit from the latest changes
   * adding extra VSCode configuration
+* If you want to use Codespaces in your own github repository, just
+  * add a ".devcontainer" folder, with
+    * at least a "devcontainer.json" file,
+    * (optionally, a Dockerfile if you want to specify your commands to build a container, instead of using a pre-built Docker image)
 
 # Thanks:
 * To Kazade for [providing the Docker image](https://hub.docker.com/r/kazade/dreamcast-sdk/) !
