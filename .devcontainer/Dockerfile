@@ -2,9 +2,12 @@
 FROM kazade/dreamcast-sdk as build
 
 # Installing prerequisites
-#RUN apk add gcc
-RUN yum install gcc
-
+#RUN apk add \
+#         gcc \
+#         libelf-dev
+RUN yum install -y \
+        gcc \
+        elfutils-libelf-devel
 
 # Add dcloadip 
 RUN git clone https://github.com/sizious/dcload-ip.git /opt/toolchains/dc/dcloadip \
