@@ -11,7 +11,7 @@
 * dc-tool-ip installed
 
 # Tips:
-  * When launching a codespace for a 2nd time, be sure to do a git pull at the start, to be in line with your repo, it will save you some problems.
+  * When launching a codespace for a 2nd time, be sure to do a git pull at the start inside your codespace to be in line with your repo, it will save you some problems.
   * To add the Kos examples to your VSCode workspace:
     * code -a /opt/toolchains/dc/kos/examples
   * To go to the kos folder:
