@@ -11,7 +11,6 @@
 * dc-tool-ip installed
 
 # Tips:
-  * When launching a codespace for a 2nd time, be sure to do a git pull at the start inside your codespace to be in line with your repo, it will save you some problems.
   * To add the Kos examples to your VSCode workspace:
     * code -a /opt/toolchains/dc/kos/examples
   * To go to the kos folder:
@@ -39,6 +38,7 @@
   * add a ".devcontainer" folder, with
     * at least a "devcontainer.json" file,
     * (optionally, a Dockerfile if you want to specify your commands to build a container, instead of using a pre-built Docker image)
+  * Tip: when launching your codespace for a 2nd time, be sure to do a git pull at the start inside your codespace to be in line with your repo, it will save you some problems.
 
 # Thanks:
 * To Kazade for [providing the Docker image](https://hub.docker.com/r/kazade/dreamcast-sdk/) !
