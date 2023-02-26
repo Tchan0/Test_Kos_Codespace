@@ -3,17 +3,17 @@
 * Select the "Codespaces" Tab
 * click on "studious invention"
 
-
-This will launch Visual Studio Code in the browser, with:
+# This will launch Visual Studio Code in the browser, with:
 * the sh-elf/arm compilers available in the terminal,
 * the kos environ.sh sourced,
-* and dc-tool-ip installed
+* dc-tool-ip installed
 
-
-* Tip:
-  * to go to the kos folder: cd /opt/toolchains/dc
-  * to send the .elf to your broadband adapter: something like:
+# Tips:
+  * To add the Kos examples to your VSCode workspace: code -a /opt/toolchains/dc/kos/examples
+  * To go to the kos folder: cd /opt/toolchains/dc
+  * To send the .elf to your broadband adapter: something like:
     * dc-tool-ip -t 192.168.1.200 -x main.elf
   
-  
-Thanks to Kazade for providing the Docker image !
+# Thanks:
+* To Kazade for providing the Docker image !
+* To Sizious for [adding a Dockerfile to Kos](https://github.com/KallistiOS/KallistiOS/blob/master/utils/dc-chain/docker/stable/Dockerfile)
