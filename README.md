@@ -36,6 +36,7 @@ This is a test repository to show how easy it is to compile applications for the
   * adding extra VSCode configuration
   * adding integration with an emulator to be able to test things without real hardware
   * adding compilation for Naomi
+  * [adding a prebuild](https://docs.github.com/en/codespaces/prebuilding-your-codespaces/about-github-codespaces-prebuilds)
   * selecting a [more powerful machine with more cores (default = 2 cores)](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/setting-a-minimum-specification-for-codespace-machines)
 * If you want to use Codespaces in your own github repository, just
   * add a ".devcontainer" folder, with
