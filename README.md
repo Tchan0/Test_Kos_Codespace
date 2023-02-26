@@ -20,7 +20,7 @@
     * cd /opt/toolchains/dc/kos/examples/dreamcast/hello
     * make
     * dc-tool-ip -t 192.168.1.200 -x hello.elf
-      * (with 192.168.1.200 being the ip address of the BBA)
+      * (with 192.168.1.200 being the ip address of your BBA)
       * Notes:
         * By default, Codespaces can only access the BBA if it is reachable via the internet (ie, addresses like 192.168.0.xxx, 192.168.1.xxx or 10.0.0.xxx, ... are not reachable)
         * If you want Codespaces to be able to access the BBA when it is only reachable via your internal network, [check this link](https://docs.github.com/en/codespaces/developing-in-codespaces/connecting-to-a-private-network)
