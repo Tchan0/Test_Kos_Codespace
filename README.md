@@ -9,8 +9,9 @@ This will launch Visual Studio Code in the browser, with:
 * and dc-tool-ip installed
 
 * Tip:
-  * to go to the linux root folder: cd /
+  * to go to the kos folder: cd /opt/toolchains/dc
   * to send the .elf to your broadband adapter: something like:
     * dc-tool-ip -t 192.168.1.200 -x main.elf
+  
   
 Thanks to Kazade for providing the Docker image !
