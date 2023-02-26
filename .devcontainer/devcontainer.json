@@ -1,13 +1,15 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+// For format details, see https://aka.ms/devcontainer.json. 
+// For config options, see the README at: https://github.com/devcontainers/templates/tree/main/src/alpine
 {
-	"name": "KOS_SH4",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"name": "Test_Kos_Codespace",
+		
+	// Either use a pre-built image (= a Docker container)...
 	"image": "kazade/dreamcast-sdk",
-    //"build": {
-        // Path is relataive to the devcontainer.json file.
-      //  "dockerfile": "Dockerfile"
-    //}
+	// ... or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	//"build": { // Path is relative to the devcontainer.json file.
+	//    "dockerfile": "Dockerfile"
+	//}
+		
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
@@ -15,7 +17,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "code -a /opt/toolchains/dc/kos/examples",
+	// "postCreateCommand": "",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -24,7 +26,7 @@
 		    "ms-vscode.cpptools"
 	        ]
 	    }
-	},
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
