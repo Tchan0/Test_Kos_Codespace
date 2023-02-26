@@ -9,8 +9,10 @@
 * dc-tool-ip installed
 
 # Tips:
-  * To add the Kos examples to your VSCode workspace: code -a /opt/toolchains/dc/kos/examples
-  * To go to the kos folder: cd /opt/toolchains/dc
+  * To add the Kos examples to your VSCode workspace:
+    * code -a /opt/toolchains/dc/kos/examples
+  * To go to the kos folder:
+    * cd /opt/toolchains/dc
   * To send the .elf to your broadband adapter: something like:
     * dc-tool-ip -t 192.168.1.200 -x main.elf
   
