@@ -1,7 +1,8 @@
 # To launch in your Web Browser a Visual Studio Code session that can compile for Dreamcast:
 * Click on the green "Code" button
 * Select the "Codespaces" Tab
-* Click on !["Create codespace on main"](/img/create_codespace.png "Create codespace on main")
+* Click on "Create codespace on main"
+  <img src="/img/create_codespace.png" alt="Create codespace on main" width="50%" height="50%" title="Create codespace on main">
   * Github will create a codespace for you, this will take a couple of minutes the first time, but will be faster afterwards.
 
 # This will launch Visual Studio Code in the browser, with:
