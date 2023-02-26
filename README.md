@@ -32,6 +32,8 @@
   * trying to keep the docker image as small as possible, and/or use several separate images
   * automate the building of the toolchain / kos on a regular base, and put that in docker image(s), to benefit from the latest changes
   * adding extra VSCode configuration
+  * adding integration with an emulator to be able to test things without real hardware
+  * adding compilation for Naomi
   * selecting a more powerful machine with more cores (default = 2 cores)
 * If you want to use Codespaces in your own github repository, just
   * add a ".devcontainer" folder, with
