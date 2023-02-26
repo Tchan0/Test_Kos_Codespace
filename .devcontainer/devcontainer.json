@@ -4,11 +4,11 @@
 	"name": "Test_Kos_Codespace",
 		
 	// Either use a pre-built image (= a Docker container)...
-	"image": "kazade/dreamcast-sdk",
+	//"image": "kazade/dreamcast-sdk",
 	// ... or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	//"build": { // Path is relative to the devcontainer.json file.
-	//    "dockerfile": "Dockerfile"
-	//}
+	"build": { // Path is relative to the devcontainer.json file.
+	    "dockerfile": "Dockerfile"
+	},
 		
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
