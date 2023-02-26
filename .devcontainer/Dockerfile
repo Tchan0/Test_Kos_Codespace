@@ -12,5 +12,6 @@ RUN yum install -y \
 # Add dcloadip 
 RUN git clone https://github.com/sizious/dcload-ip.git /opt/toolchains/dc/dcloadip \
    && cd /opt/toolchains/dc/dcloadip \
+   && source /opt/toolchains/dc/kos/environ.sh \
    && make \
    && make install
