@@ -23,7 +23,7 @@
 
 # Notes:
 * This is just a simple test & could be improved a lot, eg by:
-  * including (regular) gcc & dc-tool-ip in the docker image
+  * including (regular) gcc, dc-tool-ip, gdb, ... in the docker image
   * trying to keep the docker image as small as possible, and/or use several separate images
 
 # Thanks:
