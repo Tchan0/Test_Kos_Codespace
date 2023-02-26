@@ -26,6 +26,7 @@
 * This is just a simple test & could be improved a lot, eg by:
   * including (regular) gcc, dc-tool-ip, gdb, ... in the docker image
   * trying to keep the docker image as small as possible, and/or use several separate images
+  * automate the building of the toolchain / kos on a regular base, and put that in docker image(s), to benefit from the latest changes
   * adding extra VSCode configuration
 
 # Thanks:
