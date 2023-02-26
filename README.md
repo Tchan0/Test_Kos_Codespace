@@ -17,5 +17,5 @@
     * dc-tool-ip -t 192.168.1.200 -x main.elf
   
 # Thanks:
-* To Kazade for providing the Docker image !
+* To Kazade for [providing the Docker image](https://hub.docker.com/r/kazade/dreamcast-sdk/) !
 * To Sizious for [adding a Dockerfile to Kos](https://github.com/KallistiOS/KallistiOS/blob/master/utils/dc-chain/docker/stable/Dockerfile)
