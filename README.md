@@ -15,6 +15,7 @@
     * cd /opt/toolchains/dc
   * To send the .elf to your broadband adapter: something like:
     * dc-tool-ip -t 192.168.1.200 -x main.elf
+  * When you have finished working with your codespace, click on the green "Code" button again, and on the 3 dots next to your codespace to stop your container from running. This will save you some free execution minutes (default idle timeout is 30 minutes).
   
 # Thanks:
 * To Kazade for [providing the Docker image](https://hub.docker.com/r/kazade/dreamcast-sdk/) !
