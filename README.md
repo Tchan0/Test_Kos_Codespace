@@ -26,6 +26,7 @@
 * This is just a simple test & could be improved a lot, eg by:
   * including (regular) gcc, dc-tool-ip, gdb, ... in the docker image
   * trying to keep the docker image as small as possible, and/or use several separate images
+  * adding extra VSCode configuration
 
 # Thanks:
 * To Kazade for [providing the Docker image](https://hub.docker.com/r/kazade/dreamcast-sdk/) !
