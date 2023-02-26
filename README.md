@@ -24,7 +24,7 @@
       * Notes:
         * By default, Codespaces can only access the BBA if it is reachable via the internet (ie, addresses like 192.168.0.xxx, 192.168.1.xxx or 10.0.0.xxx, ... are not reachable)
         * If you want Codespaces to be able to access the BBA when it is only reachable via your internal network, [check this link](https://docs.github.com/en/codespaces/developing-in-codespaces/connecting-to-a-private-network)
-  * When you have finished working with your codespace, click on the green "Code" button again, and on the 3 dots next to your codespace to stop your container from running. This will save you some free execution minutes (default idle timeout is 30 minutes).
+  * When you have finished working with your codespace, click on the green "Code" button again, and on the 3 dots next to your codespace to stop your container from running. This will save you some free execution minutes (default idle timeout is 30 minutes, and you get 2 free hours per month).
 
 # Notes:
 * This is just a simple test & could be improved a lot, eg by:
@@ -32,6 +32,7 @@
   * trying to keep the docker image as small as possible, and/or use several separate images
   * automate the building of the toolchain / kos on a regular base, and put that in docker image(s), to benefit from the latest changes
   * adding extra VSCode configuration
+  * selecting a more powerful machine with more cores (default = 2 cores)
 * If you want to use Codespaces in your own github repository, just
   * add a ".devcontainer" folder, with
     * at least a "devcontainer.json" file,
