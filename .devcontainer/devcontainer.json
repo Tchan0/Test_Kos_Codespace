@@ -3,7 +3,7 @@
 {
 	"name": "KOS_SH4",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "kazade/dreamcast-sdk"
+	"image": "kazade/dreamcast-sdk",
     //"build": {
         // Path is relataive to the devcontainer.json file.
       //  "dockerfile": "Dockerfile"
@@ -15,7 +15,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "source /opt/toolchains/dc/kos/environ.sh"
+	"postCreateCommand": "code -a /opt/toolchains/dc/kos/examples"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
