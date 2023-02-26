@@ -2,7 +2,8 @@
 FROM kazade/dreamcast-sdk as build
 
 # Installing prerequisites
-RUN apk add gcc
+#RUN apk add gcc
+RUN yum install gcc
 
 
 # Add dcloadip 
